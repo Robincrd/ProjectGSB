@@ -1,0 +1,108 @@
+
+#entete {color: #01428d;
+text-align: center
+}
+
+h4 {color: #008b8b;
+text-align: left
+}
+
+ img {
+  max-width: 10%;
+  height: auto;
+  float: right;
+  opacity: 0.75;
+  transition-duration: 4s;
+
+}
+img:hover{
+  transition-duration: 1s;
+  opacity: 1;
+}
+
+* { 
+  background-color :#f0f8ff;
+}
+#bordure {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#signature {
+  text-align: right;
+  color: #01428d;
+  margin-right:30px;
+}
+
+
+#sup1 {
+  background-color: #696969;
+}
+#sup2 {
+  background-color: #d9e7f3;
+}
+
+#envoyer {
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+input{
+  width:100px;
+  border-style:groove;
+  cursor:pointer;
+  transition-duration: 1s;
+}
+
+input[type=submit]:hover {
+  transition-duration: 0,5s;
+  border-radius: 10px;
+}
+
+
+td,
+th {
+    border: 1px solid #bebebe;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d9e7f3;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: .8rem;
+}
+
+#table input[type=text]{
+  border: hidden; 
+  box-shadow: none;
+  cursor: auto;
+
+}

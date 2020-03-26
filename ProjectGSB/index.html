@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>GSB</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script language="JavaScript">
+    function ChangeUrl(formulaire)
+    {
+    if (formulaire.ListeUrl.selectedIndex != 0)
+    {
+    location.href = formulaire.ListeUrl.options[formulaire.ListeUrl.selectedIndex].value;
+    }
+    }
+  </script>
+</head>
+<body>
+    <form action="form.php">
+    <div id="main">
+      <div id="header">
+        <div id="logo">
+          <div id="logo_text">
+            <h1><a href="index.html">GSB</a></h1>
+            <h2>Galaxy-Swiss Bourdin</h2>
+          </div>
+        </div>
+        <div id="menubar">
+          <ul id="menu">
+            <li class="selected"><a href="index.html">Accueil </a></li>
+            <li><a href="src/vue/formulaire.html">Formulaire</a></li>
+            <li><a href="src/vue/test.php">Afficher</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+      <h3>L'entreprise :</h3>
+      <p>Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy (spécialisé dans le secteur des maladies virales dont le SIDA et les hépatites) et le conglomérat européen Swiss Bourdin (travaillant sur des médicaments plus conventionnels), lui même déjà union de trois petits laboratoires. 
+      L'entité Galaxy Swiss Bourdin Europe a établi son siège administratif à Paris. Le siège social de la multinationale est situé à Philadelphie, Pennsylvanie, aux Etats-Unis .</p>
+      <h3>Réorganisation :</h3>
+      <p>Une conséquence de cette fusion, est la recherche d'une optimisation de l’activité du groupe ainsi constitué en réalisant des économies d’échelle dans la production et la distribution des médicaments (en passant par une nécessaire restructuration et vague de licenciement), tout en prenant le meilleur des deux laboratoires sur les produits concurrents.
+      L'entreprise compte 480 visiteurs médicaux en France métropolitaine (Corse comprise), et 60 dans les départements et territoires d'outre-mer. Les territoires sont répartis en 6 secteurs géographiques (Paris-Centre, Sud, Nord, Ouest, Est, DTOM Caraïbes-Amériques, DTOM Asie-Afrique).</p>
+      </div>
+    <div id="content_footer"></div>
+      <div id="footer">
+
+      </div>
+    </div>
+  </form>
+</body>
+</html>
